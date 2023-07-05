@@ -7,10 +7,24 @@
           "type": "title",
           "settings": {
           }
+        },
+        "c12fe41b-9e12-416f-a28f-9f020ab51d08": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "dfeaf32d-3f2c-425e-95c6-47c31942b7d8": {
+          "type": "text",
+          "settings": {
+            "text": "Salom Bollar",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
-        "a3df7625-d08e-4d8b-982d-61fcef2467bb"
+        "a3df7625-d08e-4d8b-982d-61fcef2467bb",
+        "c12fe41b-9e12-416f-a28f-9f020ab51d08",
+        "dfeaf32d-3f2c-425e-95c6-47c31942b7d8"
       ],
       "settings": {
         "enable_sticky_info": true,
