@@ -9,7 +9,7 @@
           <article class="member__item">
             <div class="member__image-wrapper">
               {% if member_image %}
-                {{ member_image | image_url: '150x' | image_tag }}
+                {{ member_image | image_url: 'medium' | image_tag }}
               {% endif %}
               {% if name %}
                 <h4>{{ name }}</h4>
