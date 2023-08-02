@@ -7,18 +7,14 @@
         "padding_bottom": 28
       }
     },
-    "hero": {
-      "type": "hero",
+    "team": {
+      "type": "main-team",
       "settings": {
-        "title": "Salom",
-        "color_picker": "#ffffff",
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     }
   },
   "order": [
     "main",
-    "hero"
+    "team"
   ]
 }
