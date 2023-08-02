@@ -6,8 +6,10 @@
         {% assign image = member.settings.image %}
         {% assign decription = member.settings.description %}
         <div class="col">
-          <article class="team__item">
-            {{ image | image_tag | image_url: 'medium' }}
+          <article class="member__item">
+            <div class="member__image-wrapper">
+              {{ image | image_tag: class: 'member__img' | image_url: 'medium' }}
+            </div>
           </article>
         </div>
       {% endfor %}
