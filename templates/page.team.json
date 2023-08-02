@@ -30,12 +30,20 @@
             "member_image": "shopify:\/\/shop_images\/tab-3.jpg",
             "name": "Muhammad"
           }
+        },
+        "43bb1605-73f5-4d08-8115-7cf5bdca4f13": {
+          "type": "member",
+          "settings": {
+            "member_image": "shopify:\/\/shop_images\/tab-4.jpg",
+            "name": "Xondamir"
+          }
         }
       },
       "block_order": [
         "af7c7c95-1403-4d3f-8361-b545acd9a1ba",
         "84464338-d5a6-46c1-a3d0-ac4dc354739b",
-        "78228814-8647-476b-96bd-a60ce752552e"
+        "78228814-8647-476b-96bd-a60ce752552e",
+        "43bb1605-73f5-4d08-8115-7cf5bdca4f13"
       ],
       "settings": {
       }
