@@ -9,6 +9,17 @@
     },
     "team": {
       "type": "main-team",
+      "blocks": {
+        "af7c7c95-1403-4d3f-8361-b545acd9a1ba": {
+          "type": "member",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/tab-10.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "af7c7c95-1403-4d3f-8361-b545acd9a1ba"
+      ],
       "settings": {
       }
     }
