@@ -7,7 +7,7 @@
         {% assign decription = member.settings.description %}
         <div class="col">
           <article class="team__item">
-            {{ page }}
+            {{ image | img_tag | img_url: 'medium' }}
           </article>
         </div>
       {% endfor %}
