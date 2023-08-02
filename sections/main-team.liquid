@@ -8,8 +8,8 @@
         <div class="col">
           <article class="member__item">
             <div class="member__image-wrapper">
-              {% if image %}
-                {{ image | image_tag | image_url: 'medium' }}
+              {% if member_image %}
+                {{ member_image | image_tag | image_url: 'medium' }}
               {% endif %}
             </div>
           </article>
@@ -30,6 +30,11 @@
           "type": "image_picker",
           "id": "member_image",
           "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Name"
         }
       ]
     }
