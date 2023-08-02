@@ -1,11 +1,11 @@
 <section class="ourteam">
   <div class="container">
-    <div class="row">
+    <div class="grid">
       {% for member in section.blocks %}
         {% assign name = member.settings.name %}
         {% assign member_image = member.settings.member_image %}
         {% assign decription = member.settings.description %}
-        <div class="col">
+        <div class="grid__imte">
           <article class="member__item">
             <div class="member__image-wrapper">
               {% if member_image %}
