@@ -8,7 +8,9 @@
         <div class="col">
           <article class="member__item">
             <div class="member__image-wrapper">
-              {{ image | image_tag: class: 'member__img' | image_url: 'medium' }}
+              {% if condition %}
+                {{ image | image_tag: class: 'member__img' | image_url: 'medium' }}
+              {% endif %}
             </div>
           </article>
         </div>
