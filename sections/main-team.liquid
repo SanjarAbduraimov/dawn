@@ -3,7 +3,7 @@
     <div class="row">
       {% for member in section.blocks %}
         {% assign name = member.settings.name %}
-        {% assign image = member.settings.image %}
+        {% assign member_image = member.settings.member_image %}
         {% assign decription = member.settings.description %}
         <div class="col">
           <article class="member__item">
@@ -28,7 +28,7 @@
       "settings": [
         {
           "type": "image_picker",
-          "id": "image",
+          "id": "member_image",
           "label": "Image"
         }
       ]
