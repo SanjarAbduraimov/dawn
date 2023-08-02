@@ -16,10 +16,18 @@
             "member_image": "shopify:\/\/shop_images\/tab-10.jpg",
             "name": "Sanjar Abduraimov"
           }
+        },
+        "84464338-d5a6-46c1-a3d0-ac4dc354739b": {
+          "type": "member",
+          "settings": {
+            "member_image": "shopify:\/\/shop_images\/tab-6.jpg",
+            "name": "Jamshid"
+          }
         }
       },
       "block_order": [
-        "af7c7c95-1403-4d3f-8361-b545acd9a1ba"
+        "af7c7c95-1403-4d3f-8361-b545acd9a1ba",
+        "84464338-d5a6-46c1-a3d0-ac4dc354739b"
       ],
       "settings": {
       }
