@@ -1,0 +1,18 @@
+<h1>{{ page.title }}</h1>
+<p>{{ page.content }}</p>
+<h1>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum facere quo fuga, voluptatem id nobis adipisci
+  saepe odit minima officiis. Delectus hic cupiditate eius tempore consequatur sequi harum accusantium mollitia?
+</h1>
+
+<script>
+  console.log('salom');
+</script>
+{% for prodcut in collection.products %}
+  <script>
+    console.log({{ prodcut }}, "salom")
+  </script>
+  <h1>{{ product.title }}</h1>
+{% else %}
+  <h1>collection is Empty</h1>
+{% endfor %}
