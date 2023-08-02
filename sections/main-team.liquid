@@ -1,9 +1,11 @@
 <section class="ourteam">
   <div class="container">
     <div class="row">
-      {% for item in collection %}
+      {% for member in section.blocks %}
         <div class="col">
-          <article class="team__item"></article>
+          <article class="team__item">
+            {{ page }}
+          </article>
         </div>
       {% endfor %}
     </div>
