@@ -2,6 +2,7 @@
   <div class="container">
     <div class="row">
       {% for member in section.blocks %}
+        {% assign name = member.settings.name %}
         <div class="col">
           <article class="team__item">
             {{ page }}
