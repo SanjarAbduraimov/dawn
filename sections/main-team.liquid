@@ -11,6 +11,9 @@
               {% if member_image %}
                 {{ member_image | image_tag | image_url: 'medium' }}
               {% endif %}
+              {% if name %}
+                {{ name }}
+              {% endif %}
             </div>
           </article>
         </div>
